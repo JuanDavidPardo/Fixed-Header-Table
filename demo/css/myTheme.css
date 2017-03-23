@@ -64,7 +64,7 @@
 
 .fancyTable td, .fancyTable th {
 	/* appearance */
-	border: 1px solid #778899;
+	border: 1px solid #eee;
 	
 	/* size */
 	padding: 5px;
@@ -77,21 +77,7 @@
 
 .fancyTable tbody tr td {
 	/* appearance */
-	background-color: #eef2f9;
-	background-image: -moz-linear-gradient(
-		top,
-		rgba(255,255,255,0.4) 0%,
-		rgba(255,255,255,0.2) 50%,
-		rgba(255,255,255,0.1) 51%,
-		rgba(255,255,255,0.0) 100%);
-	
-	background-image: -webkit-gradient(
-		linear, left top, left bottom,
-		color-stop(0%,rgba(255,255,255,0.4)),
-		color-stop(50%,rgba(255,255,255,0.2)),
-		color-stop(51%,rgba(255,255,255,0.1)),
-		color-stop(100%,rgba(255,255,255,0.0)));
-		
+	background-color: #fff;
 	/* text */
 	color: #262c31;
 	font-size: 11px;
@@ -99,48 +85,34 @@
 
 .fancyTable tbody tr.odd td {
 	/* appearance */
-	background-color: #d6e0ef;
-	background-image: -moz-linear-gradient(
-		top,
-		rgba(255,255,255,0.4) 0%,
-		rgba(255,255,255,0.2) 50%,
-		rgba(255,255,255,0.1) 51%,
-		rgba(255,255,255,0.0) 100%);
-	
-	background-image: -webkit-gradient(
-		linear, left top, left bottom,
-		color-stop(0%,rgba(255,255,255,0.4)),
-		color-stop(50%,rgba(255,255,255,0.2)),
-		color-stop(51%,rgba(255,255,255,0.1)),
-		color-stop(100%,rgba(255,255,255,0.0)));
+	background-color: #eaeaea;
+	border-bottom: 1px solid #ccc;
 	}
 
 .fancyTable thead tr th,
 .fancyTable thead tr td,
 .fancyTable tfoot tr th, 
 .fancyTable tfoot tr td {
-	/* appearance */
-	background-color: #8ca9cf;
-	background-image: -moz-linear-gradient(
-		top,
-		rgba(255,255,255,0.4) 0%,
-		rgba(255,255,255,0.2) 50%,
-		rgba(255,255,255,0.1) 51%,
-		rgba(255,255,255,0.0) 100%);
-	
-	background-image: -webkit-gradient(
-		linear, left top, left bottom,
-		color-stop(0%,rgba(255,255,255,0.4)),
-		color-stop(50%,rgba(255,255,255,0.2)),
-		color-stop(51%,rgba(255,255,255,0.1)),
-		color-stop(100%,rgba(255,255,255,0.0)));
-		
+	background-color: #EEE;
 	/* text */
 	color: #121517;
 	font-size: 12px;
 	font-weight: bold;
+	vert-align: middle;
 	text-shadow: 0 1px 1px #e8ebee;
 	}
+
+.fancyTable thead tr th,
+.fancyTable thead tr td{
+	border: 1px solid #CCC;
+	border-bottom: 2px solid #666;
+}
+
+.fancyTable tfoot tr th,
+.fancyTable tfoot tr td {
+	border: 1px solid #CCC;
+	border-top: 2px solid #666;
+}
 	
 
 /* Fancy Dark Table */	
